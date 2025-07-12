@@ -1,4 +1,4 @@
-task.wait(1)
+task.wait(10)
 local coreGui = game:GetService("CoreGui")
 local success, robloxGui = pcall(function()
     return coreGui:WaitForChild("RobloxGui")
