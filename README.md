@@ -1,2 +1,0 @@
-# Xecret-Hub
-XecretHub
