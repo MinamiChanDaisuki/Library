@@ -10,8 +10,8 @@ local RenderStepped = RunService.RenderStepped;
 local LocalPlayer = Players.LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
 
-local Radius = UDim.new(0.02, 0)
-local RadiusLoading = UDim.new(0, 10) 
+local Radius = UDim.new(0, 0) 
+local RadiusLoading = UDim.new(0, 0) 
 
 local ProtectGui = protectgui or (syn and syn.protect_gui) or (function() end);
 local GetHUI = gethui or (function() return CoreGui end);
